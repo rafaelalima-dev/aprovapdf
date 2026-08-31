@@ -1,0 +1,2323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Aprova PDF | ManausPrev 2026
+    </title>
+
+    <meta
+        name="description"
+        content="Materiais de preparação em PDF para o concurso ManausPrev 2026. Combos para Técnico, Analista e 2 em 1."
+    >
+
+    <style>
+
+        /* =====================================================
+           RESET
+        ===================================================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        /* =====================================================
+           VARIÁVEIS
+        ===================================================== */
+
+        :root {
+
+            --navy: #071426;
+
+            --navy-2: #0b1e38;
+
+            --blue: #2563ff;
+
+            --blue-light: #4f7cff;
+
+            --cyan: #38bdf8;
+
+            --green: #19c56b;
+
+            --green-dark: #119653;
+
+            --white: #ffffff;
+
+            --off-white: #f7f9fc;
+
+            --gray: #94a3b8;
+
+            --gray-dark: #475569;
+
+            --border: rgba(255,255,255,.12);
+
+            --shadow:
+                0 25px 70px rgba(2,12,27,.18);
+
+        }
+
+
+        /* =====================================================
+           BASE
+        ===================================================== */
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+
+            font-family:
+                Inter,
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Arial,
+                sans-serif;
+
+            background: var(--off-white);
+
+            color: #0f172a;
+
+            line-height: 1.5;
+
+            overflow-x: hidden;
+
+        }
+
+
+        .container {
+
+            width: 100%;
+
+            max-width: 1180px;
+
+            margin: auto;
+
+            padding: 0 24px;
+
+        }
+
+
+        /* =====================================================
+           HEADER
+        ===================================================== */
+
+        header {
+
+            position: absolute;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            z-index: 10;
+
+            padding: 28px 0;
+
+        }
+
+
+        .header-inner {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+        }
+
+
+        .logo {
+
+            width: 175px;
+
+            height: auto;
+
+            display: block;
+
+        }
+
+
+        /* =====================================================
+           HERO
+        ===================================================== */
+
+        .hero {
+
+            position: relative;
+
+            overflow: hidden;
+
+            min-height: 720px;
+
+            padding:
+                155px 0
+                90px;
+
+            background:
+
+                radial-gradient(
+                    circle at 15% 20%,
+                    rgba(37,99,255,.22),
+                    transparent 30%
+                ),
+
+                radial-gradient(
+                    circle at 85% 25%,
+                    rgba(56,189,248,.13),
+                    transparent 28%
+                ),
+
+                linear-gradient(
+                    135deg,
+                    #06101f 0%,
+                    #091a31 50%,
+                    #06101f 100%
+                );
+
+            color: white;
+
+        }
+
+
+        .hero::before {
+
+            content: "";
+
+            position: absolute;
+
+            width: 650px;
+
+            height: 650px;
+
+            border-radius: 50%;
+
+            border: 1px solid
+                rgba(255,255,255,.045);
+
+            top: -300px;
+
+            right: -180px;
+
+        }
+
+
+        .hero::after {
+
+            content: "";
+
+            position: absolute;
+
+            width: 450px;
+
+            height: 450px;
+
+            border-radius: 50%;
+
+            border: 1px solid
+                rgba(37,99,255,.12);
+
+            bottom: -250px;
+
+            left: -150px;
+
+        }
+
+
+        .hero-content {
+
+            position: relative;
+
+            z-index: 2;
+
+            text-align: center;
+
+            max-width: 850px;
+
+            margin: auto;
+
+        }
+
+
+        .eyebrow {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 8px;
+
+            padding: 8px 15px;
+
+            border-radius: 100px;
+
+            border: 1px solid
+                rgba(255,255,255,.13);
+
+            background:
+                rgba(255,255,255,.055);
+
+            color: #cbd5e1;
+
+            font-size: 11px;
+
+            font-weight: 800;
+
+            letter-spacing: 1.2px;
+
+            text-transform: uppercase;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        .eyebrow span {
+
+            width: 7px;
+
+            height: 7px;
+
+            border-radius: 50%;
+
+            background: var(--green);
+
+            box-shadow:
+                0 0 12px rgba(25,197,107,.8);
+
+        }
+
+
+        .hero h1 {
+
+            font-size:
+                clamp(42px, 6vw, 70px);
+
+            line-height: 1.02;
+
+            letter-spacing: -2.5px;
+
+            font-weight: 900;
+
+            margin-bottom: 24px;
+
+        }
+
+
+        .hero h1 strong {
+
+            color: var(--blue-light);
+
+        }
+
+
+        .hero-description {
+
+            max-width: 680px;
+
+            margin: auto;
+
+            color: #a9b7ca;
+
+            font-size: 18px;
+
+            line-height: 1.7;
+
+        }
+
+
+        .hero-bottom {
+
+            margin-top: 38px;
+
+            display: flex;
+
+            justify-content: center;
+
+            gap: 25px;
+
+            flex-wrap: wrap;
+
+        }
+
+
+        .hero-point {
+
+            color: #dbe4ef;
+
+            font-size: 13px;
+
+        }
+
+
+        .hero-point::before {
+
+            content: "✓";
+
+            color: var(--green);
+
+            font-weight: 900;
+
+            margin-right: 6px;
+
+        }
+
+
+        /* =====================================================
+           PRODUTOS — SEÇÃO 1
+        ===================================================== */
+
+        .produtos-section {
+
+            margin-top: -75px;
+
+            position: relative;
+
+            z-index: 5;
+
+            padding-bottom: 95px;
+
+        }
+
+
+        .product-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(2, 1fr);
+
+            gap: 28px;
+
+        }
+
+
+        .product-card {
+
+            position: relative;
+
+            background: white;
+
+            border-radius: 26px;
+
+            border: 1px solid #e7ebf2;
+
+            padding: 30px;
+
+            box-shadow: var(--shadow);
+
+            overflow: hidden;
+
+            display: flex;
+
+            flex-direction: column;
+
+            transition:
+                transform .35s ease,
+                box-shadow .35s ease;
+
+        }
+
+
+        .product-card:hover {
+
+            transform: translateY(-7px);
+
+            box-shadow:
+                0 35px 80px
+                rgba(2,12,27,.20);
+
+        }
+
+
+        .product-card.featured {
+
+            border:
+                2px solid
+                rgba(37,99,255,.55);
+
+        }
+
+
+        .product-card.featured::before {
+
+            content: "";
+
+            position: absolute;
+
+            width: 300px;
+
+            height: 300px;
+
+            border-radius: 50%;
+
+            background:
+                rgba(37,99,255,.06);
+
+            top: -180px;
+
+            right: -120px;
+
+        }
+
+
+        /* =====================================================
+           BADGES
+        ===================================================== */
+
+        .badge {
+
+            position: relative;
+
+            z-index: 2;
+
+            align-self: flex-start;
+
+            padding: 7px 13px;
+
+            border-radius: 50px;
+
+            background: #edf3ff;
+
+            color: var(--blue);
+
+            font-size: 10px;
+
+            font-weight: 900;
+
+            letter-spacing: .7px;
+
+            text-transform: uppercase;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        .badge.green {
+
+            background: #eafaf2;
+
+            color: var(--green-dark);
+
+        }
+
+
+        /* =====================================================
+           IMAGEM
+        ===================================================== */
+
+        .product-image-wrapper {
+
+            height: 310px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        .product-image {
+
+            width: 100%;
+
+            height: 100%;
+
+            object-fit: contain;
+
+            filter:
+                drop-shadow(
+                    15px 20px 22px
+                    rgba(2,12,27,.18)
+                );
+
+            transition:
+                transform .35s ease;
+
+        }
+
+
+        .product-card:hover
+        .product-image {
+
+            transform:
+                translateY(-6px)
+                scale(1.025);
+
+        }
+
+
+        /* =====================================================
+           TÍTULO
+        ===================================================== */
+
+        .product-card h2 {
+
+            position: relative;
+
+            color: var(--navy);
+
+            font-size: 25px;
+
+            line-height: 1.13;
+
+            letter-spacing: -.5px;
+
+            margin-bottom: 13px;
+
+        }
+
+
+        .description {
+
+            color: var(--gray-dark);
+
+            font-size: 14px;
+
+            line-height: 1.65;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        /* =====================================================
+           CONTEÚDO
+        ===================================================== */
+
+        .content-title {
+
+            font-size: 11px;
+
+            font-weight: 900;
+
+            letter-spacing: .8px;
+
+            color: #64748b;
+
+            margin-bottom: 12px;
+
+        }
+
+
+        .subjects {
+
+            list-style: none;
+
+            display: grid;
+
+            grid-template-columns:
+                1fr 1fr;
+
+            gap: 9px;
+
+            margin-bottom: 22px;
+
+        }
+
+
+        .subjects li {
+
+            font-size: 12px;
+
+            color: #334155;
+
+        }
+
+
+        .subjects li::before {
+
+            content: "✓";
+
+            color: var(--green);
+
+            font-weight: 900;
+
+            margin-right: 6px;
+
+        }
+
+
+        /* =====================================================
+           INFO BOX
+        ===================================================== */
+
+        .info-box {
+
+            border-radius: 15px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #f1f5ff,
+                    #f8faff
+                );
+
+            border:
+                1px solid #e5ebfa;
+
+            padding: 15px 16px;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        .info-box strong {
+
+            display: block;
+
+            color: var(--navy);
+
+            font-size: 12px;
+
+            margin-bottom: 7px;
+
+        }
+
+
+        .info-box p {
+
+            color: #64748b;
+
+            font-size: 12px;
+
+            margin-bottom: 4px;
+
+        }
+
+
+        /* =====================================================
+           PREÇO
+        ===================================================== */
+
+        .price-area {
+
+            margin-top: auto;
+
+            padding-top: 5px;
+
+            margin-bottom: 18px;
+
+        }
+
+
+        .price-label {
+
+            color: #94a3b8;
+
+            font-size: 11px;
+
+        }
+
+
+        .price {
+
+            color: var(--navy);
+
+            font-size: 40px;
+
+            line-height: 1;
+
+            font-weight: 900;
+
+            letter-spacing: -1px;
+
+        }
+
+
+        /* =====================================================
+           CTA
+        ===================================================== */
+
+        .cta {
+
+            position: relative;
+
+            overflow: hidden;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            width: 100%;
+
+            min-height: 54px;
+
+            padding: 15px 20px;
+
+            border-radius: 13px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #2563ff,
+                    #1745d1
+                );
+
+            color: white;
+
+            text-decoration: none;
+
+            text-align: center;
+
+            font-size: 13px;
+
+            font-weight: 900;
+
+            letter-spacing: .2px;
+
+            box-shadow:
+                0 12px 25px
+                rgba(37,99,255,.22);
+
+            transition:
+                transform .2s ease,
+                box-shadow .2s ease;
+
+        }
+
+
+        .cta::after {
+
+            content: "";
+
+            position: absolute;
+
+            top: 0;
+
+            left: -100%;
+
+            width: 60%;
+
+            height: 100%;
+
+            background:
+                linear-gradient(
+                    90deg,
+                    transparent,
+                    rgba(255,255,255,.20),
+                    transparent
+                );
+
+            transform:
+                skewX(-20deg);
+
+            transition: .6s;
+
+        }
+
+
+        .cta:hover {
+
+            transform: translateY(-2px);
+
+            box-shadow:
+                0 17px 30px
+                rgba(37,99,255,.30);
+
+        }
+
+
+        .cta:hover::after {
+
+            left: 140%;
+
+        }
+
+
+        .cta.green {
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #19c56b,
+                    #119653
+                );
+
+            box-shadow:
+                0 12px 25px
+                rgba(25,197,107,.22);
+
+        }
+
+
+        /* =====================================================
+           SEÇÃO 2
+        ===================================================== */
+
+        .section-light {
+
+            background: #f7f9fc;
+
+            padding: 95px 0;
+
+        }
+
+
+        .section-heading {
+
+            max-width: 650px;
+
+            margin: 0 auto 45px;
+
+            text-align: center;
+
+        }
+
+
+        .section-heading .mini {
+
+            color: var(--blue);
+
+            font-size: 11px;
+
+            font-weight: 900;
+
+            letter-spacing: 1.2px;
+
+            text-transform: uppercase;
+
+            margin-bottom: 12px;
+
+        }
+
+
+        .section-heading h2 {
+
+            color: var(--navy);
+
+            font-size:
+                clamp(30px, 4vw, 43px);
+
+            line-height: 1.08;
+
+            letter-spacing: -1.2px;
+
+            margin-bottom: 13px;
+
+        }
+
+
+        .section-heading p {
+
+            color: #64748b;
+
+            font-size: 15px;
+
+        }
+
+
+        /* =====================================================
+           2 EM 1
+        ===================================================== */
+
+        .two-products {
+
+            display: grid;
+
+            grid-template-columns:
+                1fr 1fr;
+
+            gap: 28px;
+
+        }
+
+
+        .two-in-one {
+
+            border:
+                2px solid
+                rgba(25,197,107,.65);
+
+            box-shadow:
+                0 25px 70px
+                rgba(25,197,107,.09);
+
+        }
+
+
+        .saving {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 7px;
+
+            background:
+                #eafaf2;
+
+            color:
+                var(--green-dark);
+
+            padding: 7px 11px;
+
+            border-radius: 50px;
+
+            font-size: 10px;
+
+            font-weight: 900;
+
+            margin-bottom: 16px;
+
+        }
+
+
+        .saving strong {
+
+            color: var(--green-dark);
+
+        }
+
+
+        .comparison {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 10px;
+
+            margin-bottom: 5px;
+
+        }
+
+
+        .old-price {
+
+            color: #94a3b8;
+
+            text-decoration: line-through;
+
+            font-size: 14px;
+
+        }
+
+
+        .economy {
+
+            background:
+                #eafaf2;
+
+            color:
+                var(--green-dark);
+
+            padding: 4px 8px;
+
+            border-radius: 5px;
+
+            font-size: 10px;
+
+            font-weight: 900;
+
+        }
+
+
+        /* =====================================================
+           RAIO X
+        ===================================================== */
+
+        .raiox-section {
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #06101f,
+                    #0b1e38
+                );
+
+            padding: 95px 0;
+
+            color: white;
+
+            position: relative;
+
+            overflow: hidden;
+
+        }
+
+
+        .raiox-section::before {
+
+            content: "";
+
+            position: absolute;
+
+            width: 500px;
+
+            height: 500px;
+
+            border-radius: 50%;
+
+            background:
+                rgba(37,99,255,.10);
+
+            filter:
+                blur(10px);
+
+            right: -180px;
+
+            top: -250px;
+
+        }
+
+
+        .raiox-card {
+
+            position: relative;
+
+            z-index: 2;
+
+            max-width: 980px;
+
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns:
+                350px 1fr;
+
+            align-items: center;
+
+            gap: 55px;
+
+            padding: 35px;
+
+            border:
+                1px solid
+                rgba(255,255,255,.10);
+
+            border-radius: 26px;
+
+            background:
+                rgba(255,255,255,.045);
+
+            backdrop-filter:
+                blur(15px);
+
+            box-shadow:
+                0 30px 80px
+                rgba(0,0,0,.25);
+
+        }
+
+
+        .raiox-image {
+
+            width: 100%;
+
+            height: 310px;
+
+            object-fit: contain;
+
+            filter:
+                drop-shadow(
+                    15px 20px 30px
+                    rgba(0,0,0,.35)
+                );
+
+        }
+
+
+        .raiox-content .mini {
+
+            color: var(--green);
+
+            font-size: 10px;
+
+            font-weight: 900;
+
+            letter-spacing: 1px;
+
+            margin-bottom: 13px;
+
+        }
+
+
+        .raiox-content h2 {
+
+            font-size: 36px;
+
+            line-height: 1.08;
+
+            letter-spacing: -1px;
+
+            margin-bottom: 15px;
+
+        }
+
+
+        .raiox-content > p {
+
+            color: #a8b6c8;
+
+            font-size: 14px;
+
+            line-height: 1.7;
+
+            margin-bottom: 20px;
+
+        }
+
+
+        .raiox-list {
+
+            list-style: none;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        .raiox-list li {
+
+            color: #d9e2ee;
+
+            font-size: 13px;
+
+            margin-bottom: 9px;
+
+        }
+
+
+        .raiox-list li::before {
+
+            content: "✓";
+
+            color: var(--green);
+
+            font-weight: 900;
+
+            margin-right: 8px;
+
+        }
+
+
+        /* =====================================================
+           FOOTER
+        ===================================================== */
+
+        footer {
+
+            background: #040c17;
+
+            color: #64748b;
+
+            text-align: center;
+
+            padding: 25px 20px;
+
+            font-size: 11px;
+
+        }
+
+
+        /* =====================================================
+           ANIMAÇÃO
+        ===================================================== */
+
+        .reveal {
+
+            opacity: 0;
+
+            transform:
+                translateY(25px);
+
+            transition:
+                opacity .7s ease,
+                transform .7s ease;
+
+        }
+
+
+        .reveal.active {
+
+            opacity: 1;
+
+            transform:
+                translateY(0);
+
+        }
+
+
+        /* =====================================================
+           RESPONSIVO
+        ===================================================== */
+
+        @media (max-width: 850px) {
+
+            .hero {
+
+                min-height: 650px;
+
+                padding:
+                    135px 0
+                    70px;
+
+            }
+
+
+            .hero h1 {
+
+                letter-spacing: -1.5px;
+
+            }
+
+
+            .product-grid,
+            .two-products {
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+            .product-card {
+
+                padding: 23px;
+
+            }
+
+
+            .product-image-wrapper {
+
+                height: 270px;
+
+            }
+
+
+            .raiox-card {
+
+                grid-template-columns: 1fr;
+
+                gap: 25px;
+
+                text-align: center;
+
+            }
+
+
+            .raiox-image {
+
+                height: 250px;
+
+            }
+
+
+            .raiox-list {
+
+                text-align: left;
+
+            }
+
+        }
+
+
+        @media (max-width: 520px) {
+
+            .container {
+
+                padding:
+                    0 17px;
+
+            }
+
+
+            header {
+
+                padding: 22px 0;
+
+            }
+
+
+            .logo {
+
+                width: 145px;
+
+            }
+
+
+            .hero {
+
+                padding:
+                    125px 0
+                    65px;
+
+            }
+
+
+            .hero h1 {
+
+                font-size: 39px;
+
+            }
+
+
+            .hero-description {
+
+                font-size: 15px;
+
+            }
+
+
+            .hero-bottom {
+
+                flex-direction: column;
+
+                gap: 8px;
+
+            }
+
+
+            .produtos-section {
+
+                margin-top: -45px;
+
+            }
+
+
+            .subjects {
+
+                grid-template-columns:
+                    1fr;
+
+            }
+
+
+            .product-image-wrapper {
+
+                height: 235px;
+
+            }
+
+
+            .price {
+
+                font-size: 36px;
+
+            }
+
+
+            .section-light,
+            .raiox-section {
+
+                padding:
+                    70px 0;
+
+            }
+
+
+            .raiox-card {
+
+                padding: 22px;
+
+            }
+
+
+            .raiox-content h2 {
+
+                font-size: 29px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         HEADER
+    =================================================== -->
+
+    <header>
+
+        <div class="container">
+
+            <div class="header-inner">
+
+                <img
+                    src="logotipo.png"
+                    alt="Aprova PDF"
+                    class="logo"
+                >
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ==================================================
+         HERO
+    =================================================== -->
+
+    <section class="hero">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+
+                    <span></span>
+
+                   MATERIAIS PARA O CONCURSO MANAUSPREV 2026 • PÓS-EDITAL
+
+                </div>
+
+
+                <h1>
+
+                    Sua aprovação com uma preparação
+                    <strong>direcionada.</strong>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Materiais completos, organizados e atualizados
+                    para você estudar para o concurso ManausPrev 2026
+                    com foco no conteúdo que realmente importa.
+
+                </p>
+
+
+                <div class="hero-bottom">
+
+                    <span class="hero-point">
+                        Material pós-edital
+                    </span>
+
+                    <span class="hero-point">
+                        Conteúdo organizado
+                    </span>
+
+                    <span class="hero-point">
+                        Simulados com gabarito comentado
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         SEÇÃO 1 — COMBOS PRINCIPAIS
+    =================================================== -->
+
+    <section class="produtos-section">
+
+        <div class="container">
+
+            <div class="product-grid">
+
+
+                <!-- ======================================
+                     TÉCNICO
+                ======================================= -->
+
+                <article class="product-card featured reveal">
+
+                    <span class="badge">
+                        Mais procurado
+                    </span>
+
+
+                    <div class="product-image-wrapper">
+
+                        <img
+                            src="tecnico-manausprev.png"
+                            alt="Combo Técnico Previdenciário ManausPrev 2026"
+                            class="product-image"
+                        >
+
+                    </div>
+
+
+                    <h2>
+
+                        Combo Técnico Previdenciário
+                        – Administrativa
+
+                    </h2>
+
+
+                    <p class="description">
+
+                        Uma preparação completa para quem busca o cargo
+                        de Técnico Previdenciário – Administrativa.
+
+                        Estude as principais disciplinas da prova em um
+                        material organizado para facilitar sua rotina
+                        de preparação no pós-edital.
+
+                    </p>
+
+
+                    <div class="content-title">
+
+                        CONTEÚDO DO COMBO
+
+                    </div>
+
+
+                    <ul class="subjects">
+
+                        <li>
+                            Língua Portuguesa
+                        </li>
+
+                        <li>
+                            Raciocínio Lógico-Matemático
+                        </li>
+
+                        <li>
+                            Noções de Informática
+                        </li>
+
+                        <li>
+                            Direito Constitucional
+                        </li>
+
+                        <li>
+                            Direito Administrativo
+                        </li>
+
+                        <li>
+                            Direito Civil
+                        </li>
+
+                        <li>
+                            Direito Previdenciário
+                        </li>
+
+                        <li>
+                            Legislação Municipal
+                        </li>
+
+                    </ul>
+
+
+                    <div class="info-box">
+
+                        <strong>
+                            O QUE VOCÊ RECEBE
+                        </strong>
+
+                        <p>
+                            ✓ Material atualizado pós-edital
+                        </p>
+
+                        <p>
+                            ✓ Conteúdo organizado por disciplina
+                        </p>
+
+                        <p>
+                            ✓ 5 simulados completos
+                        </p>
+
+                        <p>
+                            ✓ Gabarito comentado
+                        </p>
+
+                    </div>
+
+
+                    <div class="price-area">
+
+                        <span class="price-label">
+                            Por apenas
+                        </span>
+
+                        <div class="price">
+                            R$ 49,90
+                        </div>
+
+                    </div>
+
+
+                    <a
+                        href="https://pay.kiwify.com.br/6ttk60z"
+                        class="cta"
+                    >
+
+                        QUERO O COMBO TÉCNICO
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ======================================
+                     ANALISTA
+                ======================================= -->
+
+                <article class="product-card reveal">
+
+                    <span class="badge">
+                        Pós-edital
+                    </span>
+
+
+                    <div class="product-image-wrapper">
+
+                        <img
+                            src="analista-manausprev.png"
+                            alt="Combo Analista Previdenciário ManausPrev 2026"
+                            class="product-image"
+                        >
+
+                    </div>
+
+
+                    <h2>
+
+                        Combo Analista Previdenciário
+                        – Administrativa
+
+                    </h2>
+
+
+                    <p class="description">
+
+                        Material desenvolvido para uma preparação
+                        objetiva para o cargo de Analista Previdenciário
+                        – Administrativa.
+
+                        Organize seus estudos, revise os conteúdos
+                        e pratique com simulados direcionados.
+
+                    </p>
+
+
+                    <div class="content-title">
+
+                        CONTEÚDO DO COMBO
+
+                    </div>
+
+
+                    <ul class="subjects">
+
+                        <li>
+                            Língua Portuguesa
+                        </li>
+
+                        <li>
+                            Raciocínio Lógico-Matemático
+                        </li>
+
+                        <li>
+                            Noções de Informática
+                        </li>
+
+                        <li>
+                            Direito Constitucional
+                        </li>
+
+                        <li>
+                            Direito Administrativo
+                        </li>
+
+                        <li>
+                            Direito Civil
+                        </li>
+
+                        <li>
+                            Direito Previdenciário
+                        </li>
+
+                        <li>
+                            Legislação Municipal
+                        </li>
+
+                    </ul>
+
+
+                    <div class="info-box">
+
+                        <strong>
+                            O QUE VOCÊ RECEBE
+                        </strong>
+
+                        <p>
+                            ✓ Material atualizado pós-edital
+                        </p>
+
+                        <p>
+                            ✓ Conteúdo organizado por disciplina
+                        </p>
+
+                        <p>
+                            ✓ 5 simulados completos
+                        </p>
+
+                        <p>
+                            ✓ Gabarito comentado
+                        </p>
+
+                    </div>
+
+
+                    <div class="price-area">
+
+                        <span class="price-label">
+                            Por apenas
+                        </span>
+
+                        <div class="price">
+                            R$ 59,90
+                        </div>
+
+                    </div>
+
+
+                    <a
+                        href="https://pay.kiwify.com.br/X6pMf3K"
+                        class="cta"
+                    >
+
+                        QUERO O COMBO ANALISTA
+
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         SEÇÃO 2 — QUESTÕES + 2 EM 1
+    =================================================== -->
+
+    <section class="section-light">
+
+        <div class="container">
+
+
+            <div class="section-heading">
+
+                <div class="mini">
+                    Mais opções para sua preparação
+                </div>
+
+                <h2>
+                    Estude mais.
+                    Pratique mais.
+                    Chegue mais preparado.
+                </h2>
+
+                <p>
+                    Escolha o material que combina com o seu momento
+                    de preparação.
+                </p>
+
+            </div>
+
+
+
+            <div class="two-products">
+
+
+                <!-- ======================================
+                     1000 QUESTÕES
+                ======================================= -->
+
+                <article class="product-card reveal">
+
+                    <span class="badge">
+                        Banco de questões
+                    </span>
+
+
+                    <div class="product-image-wrapper">
+
+                        <img
+                            src="1000-questoes.png"
+                            alt="1.000 Questões ManausPrev 2026"
+                            class="product-image"
+                        >
+
+                    </div>
+
+
+                    <h2>
+
+                        1.000 Questões Comentadas
+                        Concurso ManausPrev 2026
+
+                    </h2>
+
+
+                    <p class="description">
+
+                        Transforme conhecimento em prática.
+
+                        Tenha acesso a um banco com
+                        <strong>1.000 questões</strong> para
+                        treinar durante sua preparação:
+
+                        abordando todas as disciplinas,
+                        com gabarito comentado.
+
+                    </p>
+
+
+                    <div class="info-box">
+
+                        <strong>
+                            VOCÊ RECEBE
+                        </strong>
+
+                        <p>
+                            ✓ 500 questões para Técnico Previdenciário Administrativa
+                        </p>
+
+                        <p>
+                            ✓ 500 questões para Analista Previdenciário Administrativa
+                        </p>
+
+                        <p>
+                            ✓ É ideal para sua revisão
+                        </p>
+
+                        <p>
+                            ✓ Facilidade de treino diário
+                        </p>
+
+                        <p>
+                            ✓ Material atualizado pós-edital
+                        </p>
+
+                        <p>
+                            ✓ Conteúdos de todas as disciplinas
+                        </p>
+
+                         <p>
+                            ✓ Gabaritos comentados
+                        </p>
+
+                    </div>
+
+
+                    <div class="price-area">
+
+                        <span class="price-label">
+                            Por apenas
+                        </span>
+
+                        <div class="price">
+                            R$ 24,90
+                        </div>
+
+                    </div>
+
+
+                    <a
+                        href="https://pay.kiwify.com.br/s9jTrLN"
+                        class="cta"
+                    >
+
+                        QUERO 1.000 QUESTÕES COMENTADAS
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ======================================
+                     COMBO 2 EM 1
+                ======================================= -->
+
+                <article
+                    class="product-card
+                           two-in-one
+                           reveal"
+                >
+
+                    <span class="badge green">
+                        Melhor custo-benefício
+                    </span>
+
+
+                    <div class="product-image-wrapper">
+
+                        <img
+                            src="combo-2-em-1.png"
+                            alt="Combo 2 em 1 Técnico e Analista ManausPrev 2026"
+                            class="product-image"
+                        >
+
+                    </div>
+
+
+                    <div class="saving">
+
+                        ★
+
+                        VOCÊ ECONOMIZA R$ 29,90
+
+                    </div>
+
+
+                    <h2>
+
+                        Combo 2 em 1
+                        Técnico + Analista
+
+                    </h2>
+
+
+                    <p class="description">
+
+                        Quer ampliar suas possibilidades?
+
+                        Tenha os dois combos completos da Aprova PDF:
+                        <strong>Técnico + Analista</strong> em uma
+                        única oferta.
+
+                        Ideal para quem deseja se preparar para os
+                        dois cargos.
+
+                    </p>
+
+
+                    <div class="info-box">
+
+                        <strong>
+                            VOCÊ RECEBE
+                        </strong>
+
+                        <p>
+                            ✓ Combo Técnico Previdenciário Administrativa Completo 
+                        </p>
+
+                        <p>
+                            ✓ Combo Analista Previdenciário Administrativa Completo
+                        </p>
+
+                        <p>
+                            ✓ Conteúdos de todas as disciplinas
+                        </p>
+
+                        <p>
+                            ✓ Materiais pós-edital
+                        </p>
+
+                        <p>
+                            ✓ 5 simulados para cada preparação
+                        </p>
+
+                        <p>
+                            ✓ Gabaritos comentados
+                        </p>
+
+                    </div>
+
+
+                    <div class="comparison">
+
+                        <span class="old-price">
+                            R$ 109,80
+                        </span>
+
+                        <span class="economy">
+                            -27%
+                        </span>
+
+                    </div>
+
+
+                    <div class="price-area">
+
+                        <span class="price-label">
+                            Leve os dois por apenas
+                        </span>
+
+                        <div class="price">
+                            R$ 79,90
+                        </div>
+
+                    </div>
+
+
+                    <a
+                        href="https://kiwify.app/DPij5iS"
+                        class="cta green"
+                    >
+
+                        QUERO O COMBO 2 EM 1
+
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         SEÇÃO 3 — RAIO X GRATUITO
+    =================================================== -->
+
+    <section class="raiox-section">
+
+        <div class="container">
+
+
+            <div class="section-heading">
+
+                <div class="mini"
+                    style="color:#19c56b;"
+                >
+                    Material gratuito
+                </div>
+
+                <h2 style="color:white;">
+
+                    Comece pelo
+                    Raio-X.
+
+                </h2>
+
+                <p style="color:#94a3b8;">
+
+                    Conheça melhor o concurso antes de
+                    definir sua estratégia de estudos.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="raiox-card reveal">
+
+
+                <div>
+
+                    <img
+                        src="raio-x-concurso.png"
+                        alt="Raio-X ManausPrev 2026"
+                        class="raiox-image"
+                    >
+
+                </div>
+
+
+
+                <div class="raiox-content">
+
+                    <div class="mini">
+
+                        APROVA PDF • GRATUITO
+
+                    </div>
+
+
+                    <h2>
+
+                        Raio-X do Concurso
+                        ManausPrev 2026
+
+                    </h2>
+
+
+                    <p>
+
+                        Tenha uma visão estratégica do concurso
+                        e entenda melhor como organizar sua
+                        preparação.
+
+                        Um material gratuito para você começar
+                        seus estudos com mais clareza.
+
+                    </p>
+
+
+                    <ul class="raiox-list">
+
+                        <li>
+                            Visão geral das disciplinas
+                        </li>
+
+                        <li>
+                            Organização dos conteúdos
+                        </li>
+
+                        <li>
+                            Pontos importantes para sua preparação
+                        </li>
+
+                        <li>
+                            Material gratuito
+                        </li>
+
+                    </ul>
+
+
+                    <a
+                        href="https://drive.google.com/file/d/146NoY3CBcEhEdFWVziXCtUyOArcej4Z_/view?usp=drive_link"
+                        class="cta green"
+                    >
+
+                        ACESSAR GRATUITAMENTE
+
+                    </a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         FOOTER
+    =================================================== -->
+
+    <footer>
+
+        © 2026 Aprova PDF —
+        Materiais para concursos públicos.
+
+    </footer>
+
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+    <script>
+
+        /*
+        =====================================================
+        ANIMAÇÃO DOS CARDS
+        =====================================================
+        */
+
+        const elements =
+            document.querySelectorAll(".reveal");
+
+
+        const observer =
+            new IntersectionObserver(
+
+                entries => {
+
+                    entries.forEach(entry => {
+
+                        if (entry.isIntersecting) {
+
+                            entry.target.classList.add(
+                                "active"
+                            );
+
+                            observer.unobserve(
+                                entry.target
+                            );
+
+                        }
+
+                    });
+
+                },
+
+                {
+                    threshold: 0.12
+                }
+
+            );
+
+
+        elements.forEach(element => {
+
+            observer.observe(element);
+
+        });
+
+
+        /*
+        =====================================================
+        RASTREAMENTO SIMPLES DOS CTAs
+        =====================================================
+        */
+
+        document
+            .querySelectorAll(".cta")
+            .forEach(button => {
+
+                button.addEventListener(
+                    "click",
+                    function () {
+
+                        console.log(
+                            "CTA clicado:",
+                            this.innerText.trim()
+                        );
+
+                    }
+                );
+
+            });
+
+    </script>
+
+
+</body>
+
+</html>
